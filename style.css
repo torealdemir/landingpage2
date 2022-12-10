@@ -98,3 +98,41 @@ img {
     border-radius: 10px;
     margin-top: 40px;
 }
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.row-off-blue-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+    align-items: center;
+}
+
+.box-blue {
+    border: 2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
+    color: yellowgreen;
+}
+
