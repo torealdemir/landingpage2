@@ -20,11 +20,6 @@ body {
 }
 
 
-.header-link {
-    font-size: 18px;
-    color: #e5e7eb;
-    margin: 10px;
-}
 
 .navbar {
     display: flex;
@@ -47,6 +42,13 @@ ul {
     align-items: center;
 }
 
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px;
+}
+
+
 
 h1 {
     font-size: 48px;
@@ -58,10 +60,41 @@ h1 {
     display: flex;
     flex-direction: row;
 }
-.content-left, .content-right {
+.content-right {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+    margin: 50px;
 }
 
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 200px;
+    justify-content: center;
+
+}
+
+img {
+    margin: 50px;
+}
+
+
+.p-first {
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
+.sign-up-first-section {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px #3882f6;
+    border-radius: 10px;
+    margin-top: 40px;
+}
